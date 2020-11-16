@@ -65,3 +65,15 @@ function dado(nombre){
 }
 
 dado('Emmanuel');
+
+
+// DADO CORRECTO
+
+function nuevoDado(nombre){
+
+  return function(){
+    var resultadoDado = Math.ceil(Math.random() * 6)
+    return nombre + " tiró un dado y salió " + resultadoDado
+  }
+  
+}

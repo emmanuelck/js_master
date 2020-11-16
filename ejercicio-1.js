@@ -49,3 +49,19 @@ function evenodd(number){
   }
   
   dado('Emmanuel');
+
+
+// DADO INTENTO 2
+
+function dado(nombre){
+    var nombre = nombre
+
+    function tirarDados(){
+        var jugador = nombre
+        var dadoNumero = Math.floor(Math.random() *6 ) + 1
+        console.log(nombre + ' tiró un dado y salió ' + dadoNumero)
+    }
+    tirarDados();
+}
+
+dado('Emmanuel');
